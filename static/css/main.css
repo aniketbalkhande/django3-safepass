@@ -1,0 +1,125 @@
+*{
+   padding: 0;
+   margin: 0;
+}body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Lato';
+}#brand-name {
+   opacity: 80%;
+}#nav-buttons li a  {
+   border: 0;
+   background-color:rgb(155, 247, 204);
+   margin: 0;
+}.body-container{
+   width: 100vw;
+   height: 100vh;
+   background-color:#fff;
+}.body-container .inner-body{
+   padding: 0;
+}.body-container .inner-body #box {
+   padding: 2vh;
+   background-color: #fff;
+}.body-container .inner-body #box h1 {
+   text-align: center;
+   margin-bottom: 4vh ;
+   font-family: 'Ubuntu';
+   opacity: 70%;
+}#form {
+   padding: 4vw 3vw;
+}#form div{
+   padding: 2px 0 16px 0;
+   font-size: 22px;
+   color: rgb(15, 51, 51);
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}#form h4 {
+   padding: 0 ;
+   opacity: 60%;
+}#form form select {
+   max-width: 150px;
+   font-size: 20px;
+   margin-left: 35px ;
+   border: 0;
+   background-color:rgb(218, 240, 233);
+   width: 100px!important;
+}#form form select:hover {
+   border:0;
+}#form form #length option {
+   width: 100px!important;
+   overflow:hidden;
+}#form form .btn{
+   margin-top: 20px ;
+   padding: 8px 20px;
+   border:0;
+   background-color:rgb(7, 245, 205);
+}#form form .btn:hover {
+   color: black;
+   background-color: rgb(24, 245, 142);
+}#form form .checkbox  input{
+   height: 20px;
+   width: 20px;
+   margin-right: 10px;
+   background-color: black;
+}.body-container .inner-body #box #bottom {
+   text-align: center;
+   margin: 4vw 2vw 0 2vw;
+}.body-container .inner-body #box #bottom a {
+   text-decoration: none;
+   padding:0 7px;
+   opacity: 70%;
+   color:rgb(4, 247, 134);
+} 
+
+/* For password page */
+#password {
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 35px;
+   margin-bottom: 10vh;
+}#copy {
+   text-align: center;
+   margin: 0;
+   border:0;
+}#copy button {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}#copy button img {
+   height: 20px;
+   width: 20px;
+   border:0;
+   padding: 0;
+   text-align: center;
+}#copy button img:hover {
+   height: 22px;
+   width: 22px;
+}#copy button {
+   color: rgb(71, 248, 80);
+   font-size: 20px;
+} #password h2 input {
+   border:0;
+   text-align: center;
+}
+
+/* For About */
+#box #about {
+   text-align: center;
+}#box #about h4 {
+   opacity: 70%;
+   font-size: 21px;
+}#box #about p {
+   font-family: 'Roboto';
+   font-size: 19px;
+}
+
+
+footer {
+   opacity: 70%;
+}
+
+@media screen and (min-width: 950px){
+   #form {
+      padding-left: 30vw;
+   }
+}
